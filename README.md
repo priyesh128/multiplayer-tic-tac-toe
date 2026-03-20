@@ -25,8 +25,12 @@ A real-time multiplayer Tic-Tac-Toe game built using Cocos Creator and Socket.IO
 
 ---
 
+## 📜 Key Scripts
+- NetworkManager.ts → Handles socket connection and events
+- GameManager.ts → Game logic and board handling
+- server.js → Room management and real-time sync
+  
 ## 📸 Screenshots
-
 ![GameBoard1](./screenshots/1.png)
 ![GameBoard2](./screenshots/2.png)
 ![Gameplay1](./screenshots/3.png)
@@ -51,6 +55,11 @@ Click Play
 - Clients send moves via events
 - Server broadcasts updates to all players
 - Turn synchronization handled on server side
+
+## 🌐 Future Improvements
+- Player reconnect handling
+- Online deployment
+- Matchmaking system
 
 ## 👨‍💻 Author
 Priyesh Patel
