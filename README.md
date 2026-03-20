@@ -1,4 +1,4 @@
-# 🎮 Multiplayer Tic-Tac-Toe
+# 🎮 Real-Time Multiplayer Tic-Tac-Toe (Cocos Creator + Socket.IO)
 
 A real-time multiplayer Tic-Tac-Toe game built using Cocos Creator and Socket.IO.
 
@@ -19,6 +19,11 @@ A real-time multiplayer Tic-Tac-Toe game built using Cocos Creator and Socket.IO
 
 ---
 
+## 🏗️ Architecture
+Client (Cocos Creator) ↔ Socket.IO Server (Node.js)
+
+---
+
 ## 📁 Project Structure
 - client/ → Cocos Creator game
 - server/ → Node.js Socket.IO server
@@ -26,9 +31,9 @@ A real-time multiplayer Tic-Tac-Toe game built using Cocos Creator and Socket.IO
 ---
 
 ## 📜 Key Scripts
-- NetworkManager.ts → Handles socket connection and events
-- GameManager.ts → Game logic and board handling
-- server.js → Room management and real-time sync
+- NetworkManager.ts → Handles socket connection and multiplayer events  
+- GameManager.ts → Manages game logic and win conditions  
+- server.js → Handles room creation, joining, and real-time sync  
   
 ## 📸 Screenshots
 ![GameBoard1](./screenshots/1.png)
