@@ -1,0 +1,10 @@
+{
+  "name": "TicTacToe",
+  "uuid": "7645c52a-085f-483e-a50e-f1c2acf0242c",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}

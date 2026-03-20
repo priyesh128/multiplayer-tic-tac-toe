@@ -1,0 +1,15 @@
+# Cocos Creator (client)
+client/library/
+client/temp/
+client/local/
+client/build/
+
+# Node.js (server)
+server/node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
