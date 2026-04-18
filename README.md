@@ -1,6 +1,6 @@
 # 🎮 Real-Time Multiplayer Tic-Tac-Toe (Cocos Creator + Socket.IO)
 
-A real-time multiplayer Tic-Tac-Toe game built using Cocos Creator and Socket.IO.
+A real-time cross-platform multiplayer demo using Cocos Creator 3.8.8 and Socket.io. Features include lobby management and low-latency gameplay.
 
 ---
 
